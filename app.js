@@ -14,7 +14,7 @@ router.get('/',function(req,res){
   res.sendFile(path + 'index.html');
 });
 
-router.get('/sharks',function(req,res){
+router.get('/earth',function(req,res){
   res.sendFile(path + 'earth.html');
 });
 
